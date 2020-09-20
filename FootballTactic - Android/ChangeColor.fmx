@@ -1,0 +1,137 @@
+object Form10: TForm10
+  Left = 0
+  Top = 0
+  Caption = 'Form10'
+  ClientHeight = 389
+  ClientWidth = 305
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object CircleExemple: TCircle
+    Align = Center
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 4.000000000000000000
+    object TextExemple: TText
+      Align = Client
+      Text = '1'
+    end
+  end
+  object ToolBar2: TToolBar
+    Size.Width = 305.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Rectangle12: TRectangle
+      Align = Client
+      Fill.Color = xFFFFC500
+      Sides = []
+      Size.Width = 305.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      object Label1: TLabel
+        Align = Client
+        StyledSettings = [Family, Size]
+        Size.Width = 264.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claMidnightblue
+        TextSettings.HorzAlign = Center
+        Text = 'Changer les couleurs'
+        TabOrder = 1
+      end
+      object SpeedButton1: TSpeedButton
+        Align = Left
+        Size.Width = 41.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'arrowlefttoolbutton'
+        OnClick = SpeedButton1Click
+      end
+    end
+  end
+  object PanelCouleurs: TPanel
+    Align = Top
+    Position.Y = 40.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object ColorButton1: TColorButton
+      Align = Left
+      Color = claBlack
+      Size.Width = 80.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnClick = ColorButton1Click
+    end
+    object ColorButton2: TColorButton
+      Align = Center
+      Color = claBlack
+      Size.Width = 80.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      OnClick = ColorButton2Click
+    end
+    object ColorButton3: TColorButton
+      Align = Right
+      Color = claBlack
+      Position.X = 225.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      OnClick = ColorButton3Click
+    end
+  end
+  object ColorPanel1: TColorPanel
+    Align = Top
+    Color = claWhite
+    Position.Y = 63.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnChange = ColorPanel1Change
+  end
+  object ColorPanel2: TColorPanel
+    Align = Top
+    Color = claWhite
+    Position.X = 8.000000000000000000
+    Position.Y = 177.000000000000000000
+    Size.Width = 288.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Visible = False
+    OnChange = ColorPanel2Change
+  end
+  object ColorPanel3: TColorPanel
+    Align = Top
+    Color = claWhite
+    Position.X = 16.000000000000000000
+    Position.Y = 185.000000000000000000
+    Size.Width = 288.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Visible = False
+    OnChange = ColorPanel3Change
+  end
+  object ButtonOK: TButton
+    Align = Bottom
+    Position.Y = 336.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 53.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'OK'
+    OnClick = ButtonOKClick
+  end
+end

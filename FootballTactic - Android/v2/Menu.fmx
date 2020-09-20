@@ -1,0 +1,185 @@
+object Form7: TForm7
+  Left = 0
+  Top = 0
+  Caption = 'Form7'
+  ClientHeight = 473
+  ClientWidth = 310
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ToolBar2: TToolBar
+    Size.Width = 310.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object Rectangle12: TRectangle
+      Align = Client
+      Fill.Color = xFFFFC500
+      Sides = []
+      Size.Width = 310.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      object Label1: TLabel
+        Align = Client
+        StyledSettings = [Family, Size]
+        Size.Width = 269.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claMidnightblue
+        TextSettings.HorzAlign = Center
+        Text = 'Menu'
+        TabOrder = 1
+      end
+      object SpeedButton1: TSpeedButton
+        Align = Left
+        Size.Width = 41.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'arrowlefttoolbutton'
+        OnClick = SpeedButton1Click
+      end
+    end
+  end
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = claLightskyblue
+    Position.Y = 40.000000000000000000
+    Sides = [Top, Bottom]
+    Size.Width = 310.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Rectangle1Click
+    object Label2: TLabel
+      Align = Client
+      Size.Width = 310.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Nouveau'
+      TabOrder = 0
+      OnClick = Rectangle1Click
+    end
+  end
+  object Rectangle2: TRectangle
+    Align = Top
+    Fill.Color = claLightskyblue
+    Position.Y = 140.000000000000000000
+    Sides = [Bottom]
+    Size.Width = 310.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Label3Click
+    object Label3: TLabel
+      Align = Client
+      Size.Width = 310.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Modifier la disposition'
+      TabOrder = 0
+      OnClick = Label3Click
+    end
+  end
+  object Rectangle3: TRectangle
+    Align = Top
+    Fill.Color = claLightskyblue
+    Position.Y = 190.000000000000000000
+    Sides = [Bottom]
+    Size.Width = 310.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Label4Click
+    object Label4: TLabel
+      Align = Client
+      Size.Width = 310.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Changer les couleurs'
+      TabOrder = 0
+      OnClick = Label4Click
+    end
+  end
+  object Rectangle5: TRectangle
+    Align = Top
+    Fill.Color = claLightskyblue
+    Position.Y = 90.000000000000000000
+    Sides = [Bottom]
+    Size.Width = 310.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Label6Click
+    object Label6: TLabel
+      Align = Client
+      Size.Width = 310.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Ouvrir'
+      TabOrder = 0
+      OnClick = Label6Click
+    end
+  end
+  object Rectangle6: TRectangle
+    Align = Top
+    Fill.Color = claLightskyblue
+    Position.Y = 240.000000000000000000
+    Sides = [Bottom]
+    Size.Width = 310.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Label7Click
+    object Label7: TLabel
+      Align = Client
+      Size.Width = 310.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Supprimer'
+      TabOrder = 0
+      OnClick = Label7Click
+    end
+  end
+  object Rectangle4: TRectangle
+    Align = Top
+    Fill.Color = claLightskyblue
+    Position.Y = 290.000000000000000000
+    Sides = [Bottom]
+    Size.Width = 310.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Label5Click
+    object Label5: TLabel
+      Align = Client
+      Size.Width = 310.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Envoyer un rapport de bug'
+      TabOrder = 0
+      OnClick = Label5Click
+    end
+  end
+  object Rectangle7: TRectangle
+    Align = Top
+    Fill.Color = claLightskyblue
+    Position.Y = 340.000000000000000000
+    Sides = [Bottom]
+    Size.Width = 310.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Label8Click
+    object Label8: TLabel
+      Align = Client
+      Size.Width = 310.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'A propos'
+      TabOrder = 0
+      OnClick = Label8Click
+    end
+  end
+end

@@ -1,0 +1,66 @@
+inherited Form5_LgXhdpiPh: TForm5_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Rectangle12: TRectangle
+      Size.Width = 450.000000000000000000
+      Size.Height = 48.000000000000000000
+      inherited Label1: TLabel
+        Size.Width = 402.000000000000000000
+        Size.Height = 48.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited SpeedButton1: TSpeedButton
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+      end
+    end
+  end
+  inherited ButtonOK: TButton
+    Position.Y = 634.000000000000000000
+    Size.Width = 446.000000000000000000
+  end
+  inherited Panel2: TPanel
+    Position.Y = 48.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited EditNbDef: TEdit
+      Size.Width = 211.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+  end
+  inherited Panel3: TPanel
+    Position.Y = 80.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited EditNbMDef: TEdit
+      Size.Width = 211.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+  end
+  inherited Panel4: TPanel
+    Position.Y = 112.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited EditNbMil: TEdit
+      Size.Width = 211.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+  end
+  inherited Panel5: TPanel
+    Position.Y = 144.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited EditNbMOff: TEdit
+      Size.Width = 211.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+  end
+  inherited Panel6: TPanel
+    Position.Y = 176.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited EditNbAtt: TEdit
+      Size.Width = 211.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+  end
+end
