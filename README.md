@@ -4,17 +4,17 @@ Football Tactic est un logiciel de création de tactiques pour le football déve
 
 Il y a 2 versions afin de s'adapter à la taille de l'écran, une version Android et une version Windows.
 
-![Version Windows](FootballTactic - Windows/images/CaptureWindows.PNG)
+![Version Windows](images/CaptureWindows.PNG)
 
 Pour commencer une nouvelle tactique, il faut aller dans Fichier - Nouveau.
 
 Il faut ajouter le nombre de joueurs, donner le nombre de joueurs à chaque poste et donner un nom à cette tactique.
 
-![Ajouter une tactique](FootballTactic - Windows/images/CaptureAjouter.PNG)
+![Ajouter une tactique](images/CaptureAjouter.PNG)
 
 La tactique s'affiche.
 
-![Tactique générée](FootballTactic - Windows/images/CaptureTactique.PNG)
+![Tactique générée](images/CaptureTactique.PNG)
 
 A droite, on peut modifier les couleurs et en cliquant sur un joueur, on peut:
 
@@ -25,6 +25,6 @@ A droite, on peut modifier les couleurs et en cliquant sur un joueur, on peut:
 
 Dans le menu (Edition), on peut modifier la disposition de la tactique. Après modifications, on obtient une tactique comme celle-ci. On peut ajouter des commentaires à droite si l'on veut.
 
-![Tactique prête](FootballTactic - Windows/images/CaptureTactiqueComplete.PNG)
+![Tactique prête](images/CaptureTactiqueComplete.PNG)
 
 On peut enregister la tactique pour la réouvrir plus tard. On peut de plus, l'exporter comme image, afin de l'imprimer ou la partager.
