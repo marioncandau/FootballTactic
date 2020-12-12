@@ -23,6 +23,8 @@ A droite, on peut modifier les couleurs et en cliquant sur un joueur, on peut:
 - ajouter le nom du titulaire
 - ajouter les noms des remplacants
 
+![Modifier](images/CaptureModifier.PNG)
+
 Dans le menu (Edition), on peut modifier la disposition de la tactique. Après modifications, on obtient une tactique comme celle-ci. On peut ajouter des commentaires à droite si l'on veut.
 
 ![Tactique prête](images/CaptureTactiqueComplete.PNG)
